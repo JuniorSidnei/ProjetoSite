@@ -22,7 +22,7 @@ $(document).ready(function(){
         localStorage.setItem('session', JSON.stringify(element));
         localStorage.setItem('carrinho', JSON.stringify([]));
         alert('Login efetuado com sucesso, o carrinho foi limpo.');
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
       }
     });
 

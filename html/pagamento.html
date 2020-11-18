@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Carrinho - Projeto</title>
+  <title>Pagamento - Projeto</title>
 
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/carrinho.css">
+  <link rel="stylesheet" href="../css/pagamento.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
@@ -30,16 +30,17 @@
     <div class="slogan">Slogam da empresa aqui</div>
   </header>
 
-  <section class="products">
-    <h1 class="title">Carrinho</h1>
+  <section class="payment">
+    <h1 class="title">Pagamento</h1>
 
-    <div class="list">
+    <div>
+      <input type="text" name="numeroCartao" placeholder="Número do cartão">
+      <input type="text" name="nomeCartao" placeholder="Nome impresso no cartão">
+      <input type="text" name="validadeCartao" placeholder="Validade do cartão">
+      <input type="text" name="ccv" placeholder="CCV">
+      <select name="parcelas"></select>
+      <button class="pagar button">Pagar</button>
     </div>
-  </section>
-
-  <section class="finalizar">
-    <h2 class="valor">Valor final: <span>R$ 150,00</span></h2>
-    <button class="button finalizar">Finalizar compra</button>
   </section>
 
   <footer>
@@ -48,8 +49,9 @@
     <a href="http://instagram.com" target="_blank"><img src="../img/instagram.png"></a>
   </footer>
 
-  <script src="../js/jquery.js"></script> 
+  <script src="../js/jquery.js"></script>
   <script src="../js/script.js"></script>
-  <script src="../js/carrinho.js"></script>
+  <script src="../js/mask.min.js"></script>
+  <script src="../js/pagamento.js"></script>
 </body>
 </html>

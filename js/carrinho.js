@@ -7,7 +7,7 @@ $(document).ready(function(){
   carrinho.forEach(function(element, index, array){
     var produto = getProductById(element.id);
 
-    html += '<div><img src="img/'+produto.foto+'"><div class="infos"><h2>'+produto.nome+'</h2><h3 class="quantidade">Quantidade: <span>'+element.quantidade+'</span></h3><h3 class="valor">Valor total: <span>R$ '+formatMoney(element.quantidade * produto.valor)+'</span></h3><button class="remover" idProduto="'+produto.id+'">Remover produto</button></div></div>';
+    html += '<div><img src="../img/'+produto.foto+'"><div class="infos"><h2>'+produto.nome+'</h2><h3 class="quantidade">Quantidade: <span>'+element.quantidade+'</span></h3><h3 class="valor">Valor total: <span>R$ '+formatMoney(element.quantidade * produto.valor)+'</span></h3><button class="remover" idProduto="'+produto.id+'">Remover produto</button></div></div>';
 
     valorFinal += element.quantidade * produto.valor;
   });
@@ -34,6 +34,6 @@ $(document).ready(function(){
       alert('Nenhum produto no carrinho.');
       return false;
     }
-    window.location.href = 'pagamento.html';
+    window.location.href = '../html/pagamento.html';
   });
 });
