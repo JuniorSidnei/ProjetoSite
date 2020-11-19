@@ -6,7 +6,7 @@ $(document).ready(function(){
   var carrinho = JSON.parse(localStorage.getItem("carrinho"));
 
   if(carrinho.length == 0){
-    window.location.href = 'html/carrinho.html';
+    window.location.href = 'carrinho.html';
   }
 
   var html = '';

@@ -33,7 +33,7 @@ $(document).ready(function(){
       localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
       alert('Cadastro efetuado com sucesso, faça login.');
-      window.location.href = '../login.html';
+      window.location.href = 'login.html';
     }
   });
 });

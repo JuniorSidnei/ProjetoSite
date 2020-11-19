@@ -46,43 +46,43 @@ function setProducts(){
   var produtos = [];
   produtos.push({
     id: 1,
-    nome: 'Produto um',
-    descricao: 'Descrição do produto de numero um',
+    nome: 'Garrafa tornado',
+    descricao: 'Térmica para todos os dias!',
     foto: 'produto1.jpg',
     valor: 15
   });
   produtos.push({
     id: 2,
-    nome: 'Produto dois',
-    descricao: 'Descrição do produto de numero dois',
+    nome: 'Garrafa surfista',
+    descricao: 'Bebidas geladas é sua especialidade',
     foto: 'produto2.jpg',
     valor: 5
   });
   produtos.push({
     id: 3,
-    nome: 'Produto três',
-    descricao: 'Descrição do produto de numero três',
+    nome: 'Garrafa Clean',
+    descricao: 'Para ninguem perguntar "o que está bebendo" toda hora, né?',
     foto: 'produto3.jpg',
     valor: 2.5
   });
   produtos.push({
     id: 4,
-    nome: 'Produto quatro',
-    descricao: 'Descrição do produto de numero quatro',
+    nome: 'Garrafa Dark',
+    descricao: 'Tenha em mais o modelo mais dark da Garrafas Inc.',
     foto: 'produto4.jpg',
     valor: 30
   });
   produtos.push({
     id: 5,
-    nome: 'Produto cinco',
-    descricao: 'Descrição do produto de numero cinco',
+    nome: 'Garrafa Alluminiun',
+    descricao: 'Despojada e desejada, com um design inovador, todos querem!',
     foto: 'produto5.jpg',
     valor: 10
   });
   produtos.push({
     id: 6,
-    nome: 'Produto seis',
-    descricao: 'Descrição do produto de numero seis',
+    nome: 'Garrafa Cute',
+    descricao: 'Para aqueles que querem uma garrafa boa e fofa',
     foto: 'produto6.jpg',
     valor: 11.75
   });
